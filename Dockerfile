@@ -31,3 +31,4 @@ RUN apk add --update autoconf automake curl-dev g++ gnutls-dev json-c-dev libee-
  && make \
  && make install \
  && rm -rf /var/cache/apk/*
+
